@@ -3,6 +3,14 @@ framework:
     translator:
         fallbacks:
             - 'en'
+                
+        providers:
+            loco:
+                dsn: '%env(LOCO_DSN)%'
+                domains: ['messages']
+                locales: ['en', 'nl', 'es'] 
+                
+        enabled_locales: ['en', 'nl', 'es']
 
 # php_translation
 translation:

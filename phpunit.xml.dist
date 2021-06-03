@@ -30,6 +30,10 @@
         <!-- ###+ symfony/mailer ### -->
         <!-- MAILER_DSN=smtp://localhost -->
         <!-- ###- symfony/mailer ### -->
+
+        <!-- ###+ symfony/loco-translation-provider ### -->
+        <!-- LOCO_DSN=loco://API_KEY@default -->
+        <!-- ###- symfony/loco-translation-provider ### -->
     </php>
 
     <testsuites>
